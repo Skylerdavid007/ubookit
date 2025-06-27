@@ -5,12 +5,81 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>UBOOKIT</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    h1 {
+      color: #2c3e50;
+    }
+
+    .services {
+      margin-top: 30px;
+    }
+
+    .services h2 {
+      margin-bottom: 10px;
+    }
+
+    ul.service-links {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul.service-links li {
+      margin-bottom: 8px;
+    }
+
+    ul.service-links a {
+      text-decoration: none;
+      color: #3498db;
+      font-weight: bold;
+    }
+
+    ul.service-links a:hover {
+      text-decoration: underline;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+  </style>
 </head>
 <body>
   <h1>Welcome to UBOOKIT</h1>
   <p>This is the beta version of the app.</p>
-<p>this is a new line </p>
+  <p>This is a new line.</p>
+
   <button onclick="showMessage()">Click Me</button>
+
+  <div class="services">
+    <h2>Popular Toronto Services</h2>
+    <ul class="service-links">
+      <li><a href="https://www.torontoplumbinggroup.com/" target="_blank">Plumbing Services</a></li>
+      <li><a href="https://www.aceelectric.ca/" target="_blank">Electrical Services</a></li>
+      <li><a href="https://www.locksmithtoronto24.ca/" target="_blank">Locksmith Services</a></li>
+      <li><a href="https://www.torontotowing.ca/" target="_blank">Towing Services</a></li>
+      <li><a href="https://www.hometurf.ca/lawn-care/toronto" target="_blank">Lawn Care Services</a></li>
+      <li><a href="https://www.mrrooter.ca/toronto/" target="_blank">Drain Cleaning Services</a></li>
+      <li><a href="https://maidsinpink.ca/" target="_blank">Home Cleaning Services</a></li>
+    </ul>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
